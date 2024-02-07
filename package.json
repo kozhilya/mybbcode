@@ -1,0 +1,56 @@
+{
+  "name": "mybbcode",
+  "version": "0.1.3",
+  "description": "Гибкий инструмент для работы с BB-кодами на форумах, основанных на платформе mybb.ru",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozhilya/mybbcode.git"
+  },
+  "keywords": [
+    "mybb",
+    "bb",
+    "codes"
+  ],
+  "author": "kozhilya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kozhilya/mybbcode/issues"
+  },
+  "homepage": "https://github.com/kozhilya/mybbcode#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/jquery": "^3.5.29",
+    "@webpack-cli/generators": "^3.0.1",
+    "babelify": "^10.0.0",
+    "grunt": "^1.6.1",
+    "grunt-browserify": "^6.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-jsdoc-to-markdown": "^6.0.0",
+    "html-loader": "^4.2.0",
+    "jsdoc-babel": "^0.5.0",
+    "jsdoc-to-markdown": "^8.0.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-container": "^3.0.0",
+    "prettier": "^2.8.2",
+    "terser-webpack-plugin": "^5.3.7",
+    "ts-loader": "^9.4.2",
+    "tsify": "^5.0.4",
+    "typescript": "^5.3.3",
+    "uglify-js": "^3.17.4",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "webpack-utf8-bom": "^1.4.0"
+  }
+}
